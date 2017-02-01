@@ -60,6 +60,7 @@ public class MainDriver2 {
 //        }
 //
 //        System.out.println(body);
+        System.out.println(Scene.v().getSootClassPath());
         Pack jtp = PackManager.v().getPack("jtp");
         jtp.add(new Transform("jtp.instrumenter", new InvokeStaticInstrumenter()));
         soot.Main.main(args);
