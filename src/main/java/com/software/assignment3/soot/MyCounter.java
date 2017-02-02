@@ -1,4 +1,4 @@
-package com.software.assignment3;
+package com.software.assignment3.soot;
 
 
 public class MyCounter {

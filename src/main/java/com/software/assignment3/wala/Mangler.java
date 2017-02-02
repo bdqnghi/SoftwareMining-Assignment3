@@ -1,4 +1,4 @@
-package com.software.assignment3;
+package com.software.assignment3.wala;
 
 import com.ibm.wala.shrikeBT.*;
 import com.ibm.wala.shrikeBT.MethodEditor.Output;
@@ -9,7 +9,6 @@ import com.ibm.wala.shrikeBT.shrikeCT.OfflineInstrumenter;
 import com.ibm.wala.shrikeCT.ClassWriter;
 
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.Writer;
 import java.util.Random;

@@ -8,7 +8,7 @@
  * Contributors:
  * IBM Corporation - initial API and implementation
  *******************************************************************************/
-package com.software.assignment3;
+package com.software.assignment3.wala;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

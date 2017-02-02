@@ -1,4 +1,4 @@
-package com.software.assignment3;
+package com.software.assignment3.soot;
 
 import org.apache.bcel.Repository;
 import org.apache.bcel.classfile.ClassParser;
