@@ -5,24 +5,11 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/InvokeStaticInstrumenter.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/MainDriver.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/MainDriver2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/InjectCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/InvokeStaticInstrumenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCounterInstrumenter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/MainDriver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/MainDriver2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/MyCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/TestSum.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/AddBytecodeDebug.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Bench.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/InstrumentedTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Mangler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Slots.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report" afterPath="$PROJECT_DIR$/report" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoftwareMining.iml" afterPath="$PROJECT_DIR$/SoftwareMining.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/MyCounter.java" afterPath="$PROJECT_DIR$/src/main/java/MyCounter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCountInstrumenter.java" afterPath="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCountInstrumenter.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,12 +30,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyCounter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyCounter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MyCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,11 +45,9 @@
       <file leaf-file-name="TestSum.class" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestSum.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="216">
               <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#543#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,8 +55,8 @@
       <file leaf-file-name="LoopCountInstrumenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCountInstrumenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12">
-              <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="462">
+              <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,14 +64,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="27" column="120" lean-forward="false" selection-start-line="27" selection-start-column="120" selection-end-line="27" selection-end-column="120" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="468">
+              <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,7 +77,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="1152">
               <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
               <folding />
             </state>
@@ -102,12 +87,9 @@
       <file leaf-file-name="Options.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/all/soot-all.jar!/soot/options/Options.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3215">
+            <state relative-caret-position="23562">
               <caret line="1569" column="0" lean-forward="false" selection-start-line="1569" selection-start-column="0" selection-end-line="1569" selection-end-column="0" />
-              <folding>
-                <element signature="e#109114#109115#0" expanded="true" />
-                <element signature="e#109161#109162#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -204,9 +186,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/InvokeStaticInstrumenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/TestApp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCountInstrumenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/MyCounter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/App.java" />
       </list>
     </option>
   </component>
@@ -245,7 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -522,7 +504,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -964,19 +946,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31861198" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5024424" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37644586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37644586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -994,6 +975,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31861198" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270242" sideWeight="0.49755758" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1037,7 +1019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.9/com.ibm.wala.shrike-1.3.9-sources.jar!/com/ibm/wala/shrikeBT/ConversionInstruction.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.9/com.ibm.wala.shrike-1.3.9-sources.jar!/com/ibm/wala/shrikeBT/info/LocalAllocator.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.9/com.ibm.wala.shrike-1.3.9-sources.jar!/com/ibm/wala/shrikeBT/tools/OfflineInstrumenterBase.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
@@ -1047,13 +1028,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.9/com.ibm.wala.shrike-1.3.9-sources.jar!/com/ibm/wala/shrikeBT/shrikeCT/ClassInstrumenter.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.9/com.ibm.wala.shrike-1.3.9-sources.jar!/com/ibm/wala/shrikeCT/ConstantValueWriter.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.9/com.ibm.wala.shrike-1.3.9-sources.jar!/com/ibm/wala/shrikeBT/MethodEditor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Slots.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Slots.java" />
     <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -1082,14 +1057,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/AddBytecodeDebug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="90" column="29" lean-forward="false" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/AddBytecodeDebug.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.10-SNAPSHOT/com.ibm.wala.shrike-1.3.10-SNAPSHOT-sources.jar!/com/ibm/wala/shrikeBT/ConstantInstruction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -1097,14 +1065,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Bench.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="147" column="23" lean-forward="false" selection-start-line="133" selection-start-column="19" selection-end-line="147" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Bench.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/ibm/wala/com.ibm.wala.shrike/1.3.10-SNAPSHOT/com.ibm.wala.shrike-1.3.10-SNAPSHOT-sources.jar!/com/ibm/wala/shrikeBT/MethodEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -1112,14 +1073,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Mangler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="174" column="33" lean-forward="false" selection-start-line="174" selection-start-column="28" selection-end-line="174" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/Mangler.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/2.5.0/soot-2.5.0.jar!/soot/baf/Baf.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3716">
@@ -1128,14 +1082,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/software/assignment3/soot/MyCounter.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/MainDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/MainDriver.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/2.5.0/soot-2.5.0.jar!/soot/Scene.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1145,13 +1092,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/all/soot-all.jar!/com/software/mining/GotoInstrumenter.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/TestSum.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCounterInstrumenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCounterInstrumenter.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/InjectCode.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/all/soot-all.jar!/com/software/mining/InvokeStaticInstrumenter.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/all/soot-all.jar!/soot/SootMethod.class">
@@ -1169,27 +1110,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sootOutput/tests/MyCounter.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/InstrumentedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/MainDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/wala/InstrumentedTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/MainDriver.java" />
     <entry file="file://$PROJECT_DIR$/target/classes/MyCounter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,26 +1123,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="201" column="21" lean-forward="false" selection-start-line="201" selection-start-column="21" selection-end-line="201" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/TestApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/TestApp.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/all/soot-all.jar!/soot/options/Options.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3215">
+        <state relative-caret-position="23562">
           <caret line="1569" column="0" lean-forward="false" selection-start-line="1569" selection-start-column="0" selection-end-line="1569" selection-end-column="0" />
-          <folding>
-            <element signature="e#109114#109115#0" expanded="true" />
-            <element signature="e#109161#109162#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,29 +1146,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sootOutput/tests/TestSum.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/GotoInstrumenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sootOutput/tests/TestSum.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/GotoInstrumenter.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
+        <state relative-caret-position="1152">
           <caret line="64" column="44" lean-forward="false" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
           <folding />
         </state>
@@ -1262,11 +1161,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TestSum.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="216">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#543#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,7 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1282,7 +1178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1290,14 +1185,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sootOutput/MyCounter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="32" column="47" lean-forward="false" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ca/mcgill/sable/soot/all/soot-all.jar!/soot/jimple/StringConstant.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/LoopCountInstrumenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="462">
+          <caret line="42" column="38" lean-forward="false" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1306,24 +1222,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MyCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sootOutput/MyCounter.class">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/software/assignment3/soot/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="27" column="120" lean-forward="false" selection-start-line="27" selection-start-column="120" selection-end-line="27" selection-end-column="120" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

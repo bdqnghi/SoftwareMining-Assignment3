@@ -1,5 +1,3 @@
-import fj.Hash;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -15,7 +13,6 @@ public class MyCounter {
         else{
             counter.get(key).incrementAndGet();
         }
-
     }
 
     public static synchronized void report(String key) {

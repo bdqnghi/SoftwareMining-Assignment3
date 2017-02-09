@@ -1,18 +1,14 @@
 package com.software.assignment3.soot;
 
 import soot.*;
-import soot.JastAddJ.ForStmt;
-import soot.JastAddJ.WhileStmt;
 import soot.jimple.*;
-import soot.tagkit.LineNumberTag;
-import soot.util.*;
+import soot.util.Chain;
 
-import javax.net.ssl.SSLContext;
-import java.util.*;
+import java.util.Iterator;
+import java.util.Map;
 
 public class LoopCountInstrumenter extends BodyTransformer {
 
-    /* some internal fields */
     static SootClass counterClass;
     static SootMethod increaseCounter, reportCounter;
 
@@ -21,16 +17,8 @@ public class LoopCountInstrumenter extends BodyTransformer {
         increaseCounter = counterClass.getMethod("void increase(java.lang.String,int)");
         reportCounter = counterClass.getMethod("void report(java.lang.String)");
     }
-
-    /* internalTransform goes through a method body and inserts
-     * counter instructions before an INVOKESTATIC instruction
-     */
     protected void internalTransform(Body body, String phase, Map options) {
-        // body's method
 
-//        for(SootMethod m : counterClass.getMethods()){
-//            System.out.println(m.getSignature());
-//        }
         SootMethod method = body.getMethod();
         System.out.println("Instrumenting method : " + method.getSignature());
 
