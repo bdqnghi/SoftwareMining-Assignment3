@@ -10,17 +10,21 @@ import java.util.Map;
 public class LoopCountInstrumenter extends BodyTransformer {
 
     static SootClass counterClass;
-    static SootMethod increaseCounter, reportCounter;
+    static SootMethod increaseCounter, reportCounter,countExecutedCounter;
 
     static {
         counterClass = Scene.v().loadClassAndSupport("MyCounter");
-        increaseCounter = counterClass.getMethod("void increase(java.lang.String,int)");
+        increaseCounter = counterClass.getMethod("void increase(java.lang.String)");
         reportCounter = counterClass.getMethod("void report(java.lang.String)");
+        countExecutedCounter = counterClass.getMethod("void count_branching_executed()");
     }
     protected void internalTransform(Body body, String phase, Map options) {
 
         SootMethod method = body.getMethod();
-        System.out.println("Instrumenting method : " + method.getSignature());
+        if(method.getSignature().contains("org.mozilla.javascript.tools.shell.Main")){
+            System.out.println("Instrumenting method : " + method.getSignature());
+        }
+        //System.out.println("Instrumenting method : " + method.getSignature());
 
         Chain units = body.getUnits();
 
@@ -30,15 +34,12 @@ public class LoopCountInstrumenter extends BodyTransformer {
             Stmt stmt = (Stmt) stmtIt.next();
 
             String methodId = method.getSignature();
-
-//            String line = (LineNumberTag)(stmt.getTag("LineNumberTag")).getLineNumber();
-
-            String ID = methodId;
+            String ID = methodId + "," + stmt.getJavaSourceStartLineNumber();
 
             if (stmt.branches()) {
-                System.out.println("Found for loop or while loop in method : " + methodId);
+                //System.out.println("Found for loop or while loop in method : " + methodId);
                 InvokeExpr incExpr = Jimple.v().newStaticInvokeExpr(increaseCounter.makeRef(),
-                        StringConstant.v(ID), IntConstant.v(1));
+                        StringConstant.v(ID));
 
                 Stmt incStmt = Jimple.v().newInvokeStmt(incExpr);
 
@@ -47,15 +48,19 @@ public class LoopCountInstrumenter extends BodyTransformer {
 
             if ((stmt instanceof ReturnStmt)
                     ||(stmt instanceof ReturnVoidStmt)) {
-                System.out.println("Reaching the end of method :" + methodId);
+
                 InvokeExpr reportExpr= Jimple.v().newStaticInvokeExpr(reportCounter.makeRef(),StringConstant.v(ID));
 
                 Stmt reportStmt = Jimple.v().newInvokeStmt(reportExpr);
                 units.insertBefore(reportStmt, stmt);
+
+                if(method.getSignature().contains("<org.mozilla.javascript.tools.shell.Main: int exec(java.lang.String[])>")){
+                    InvokeExpr countExpr = Jimple.v().newStaticInvokeExpr(countExecutedCounter.makeRef());
+
+                    Stmt countStmt = Jimple.v().newInvokeStmt(countExpr);
+                    units.insertBefore(countStmt, stmt);
+                }
             }
-
         }
-
-
     }
 }
